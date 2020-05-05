@@ -1,0 +1,36 @@
+
+
+nav h2{
+    font-family: cursive;
+    color: #333642;
+}
+.nav-link{
+    color: #333642;
+    font-family: cursive;
+}
+
+.carousel-item{
+    height: 500px;
+    background-size: cover;
+}
+.carousel-caption p{
+font-size: 20px;
+font-family: cursive;
+}
+footer{
+    margin: 1% 20%;
+    padding: 0 15px;
+    font-family: cursive;
+    color: #333642;
+}
+#foot input{
+    padding: 7px 10px;
+}
+#btn{
+    padding: 7px 12px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 16px;
+    color: #333642;
+
+}
