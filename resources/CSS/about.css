@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: white;
+}
+nav h2{
+    font-family: cursive;
+    color: #8f7586;
+} 
+
+.nav-link{
+    color: #8f7586;
+    font-family: cursive;
+}
+.active a{
+    font-size: 18px;
+    font-weight: 700;
+    color: teal; 
+ }
+ .navbar a:hover{
+     color: teal;
+ }
+.content{
+    border: none;
+    width: 700px;
+    margin: 100px auto 20px auto;
+    text-align: left;
+    padding:50px;
+    padding-top: 0;
+    background-color: #cfcfba;
+    opacity: 0.75;
+
+}
+.content h1{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 60px;
+    font-family: cursive;
+    color: #42343e;
+}
+.content p{
+    font-size: 20px;
+    font-family: cursive;
+    color: #42343e;
+}

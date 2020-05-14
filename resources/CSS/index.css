@@ -2,35 +2,56 @@
 
 nav h2{
     font-family: cursive;
-    color: #333642;
-}
+    color: #8f7586;
+} 
+
 .nav-link{
-    color: #333642;
+    color: #8f7586;
     font-family: cursive;
 }
+.active a{
+    font-size: 18px;
+    font-weight: 700;
+    color: teal;
+ }
+ .navbar a:hover{
+     color: teal;
+ }
 
 .carousel-item{
     height: 500px;
     background-size: cover;
 }
 .carousel-caption p{
-font-size: 20px;
+font-size: 24px;
+font-weight: bold;
 font-family: cursive;
+
+
 }
 footer{
     margin: 1% 20%;
     padding: 0 15px;
     font-family: cursive;
-    color: #333642;
+    text-align: center;
+    color:  #8f7586 ;
 }
-#foot input{
-    padding: 7px 10px;
+footer p{
+    font-size: 20px;
 }
-#btn{
-    padding: 7px 12px;
-    background-color: cadetblue;
-    border: none;
-    border-radius: 16px;
-    color: #333642;
 
+
+#btn{
+    background-color: #cdeff7;
+    border: none;
+    border-radius: 16px;   
+}
+#btn a{
+    font-family: cursive;
+    font-size: 20px;
+    color: #8f7586;
+    padding: 7px 50px;
+}
+#btn:hover{
+    background-color: white;
 }
