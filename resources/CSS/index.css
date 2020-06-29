@@ -1,4 +1,6 @@
-
+body{
+    overflow: hidden;
+}
 
 nav h2{
     font-family: cursive;
@@ -9,49 +11,43 @@ nav h2{
     color: #8f7586;
     font-family: cursive;
 }
-.active a{
-    font-size: 18px;
-    font-weight: 700;
-    color: teal;
- }
- .navbar a:hover{
-     color: teal;
- }
+
 
 .carousel-item{
-    height: 500px;
+    height: 90vh;
     background-size: cover;
 }
-.carousel-caption p{
-font-size: 24px;
+.carousel-caption{
+    position: absolute;
+    top: 45%;
+    
+    
+}
+.carousel-caption h1{
+font-size: 50px;
 font-weight: bold;
 font-family: cursive;
-
+padding: 10px 0;
+color: #4e8568;
 
 }
-footer{
-    margin: 1% 20%;
-    padding: 0 15px;
-    font-family: cursive;
-    text-align: center;
-    color:  #8f7586 ;
-}
-footer p{
-    font-size: 20px;
-}
-
-
 #btn{
-    background-color: #cdeff7;
-    border: none;
-    border-radius: 16px;   
+    background: none;
+    border: 3px solid white;
+    margin: 30px 0;
+    padding: 5px 50px;  
 }
 #btn a{
     font-family: cursive;
     font-size: 20px;
-    color: #8f7586;
-    padding: 7px 50px;
+    color: #4e8568;
+    text-transform: uppercase;
+    font-weight: bold;
+    
 }
-#btn:hover{
-    background-color: white;
+@media (max-width:767px){
+    .carousel-caption p{
+        font-size: 16px;
+    }
 }
+
